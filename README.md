@@ -1,31 +1,32 @@
-# Project Title
+# ASU Pitchfork Font Icon
 
 ASU's pitchfork (shocker) hand sign logo thingy as a font. Originally intended for use with banner and inline marketing material for ASU's Mary Lou Fulton Teachers College. 
 
 ## Getting Started
 
-Git Clone https://github.com/dherbold/asu-pitchfork-font-icon.git
+Fork or Clone https://github.com/dherbold/asu-pitchfork-font-icon.git
 
 **Local machine use:** 
 
-Install the TTF font for use on your local machine. In order to copy the character associated with each icon, refer to the text box at the bottom right corner of each glyph in demo.html. The character inside this text box may be invisible; but it can still be copied. See this guide for more info: https://icomoon.io/#docs/local-fonts
+Install the TTF font for use on your local machine. In order to copy the character associated with each icon, refer to the text box at the bottom right corner of each glyph in demo.html. The character inside this text box may be invisible; but it can still be copied. See this guide for more info: [IcoMoon.io](https://icomoon.io/#docs/local-fonts)
 
 You won't need any of the files located under the *demo-files* directory when including the generated font in your own projects.
 
-You can import *selection.json* back to the IcoMoon app using the *Import Icons* button (or via Main Menu → Manage Projects) to retrieve your icon selection.
+You can import *selection.json* back to the IcoMoon app using the *Import Icons* button (or via Main Menu → Manage Projects) to retrieve this icon selection so you can tweak to taste however you want.
+
+Ive added the original shocker vector file as an additional resource. 
 
 
 ### Prerequisites
 
-No real Prerequisites here, but do access icomoon.io for more utilities related to it. 
+No real Prerequisites here, but do access [IcoMoon.io](https://icomoon.io/) for more utilities related to it. 
 
 
 ### Installing
 
-On drupal installs, font directories are relative. 
+On Drupal(7) installs, font directories are relative. Ref the following rel to your css directory. 
 
-
-```
+```css
 @font-face {
   font-family: 'asu_shocker';
   src: url('../fonts/asu_shocker/asu_shocker.eot');
@@ -33,10 +34,9 @@ On drupal installs, font directories are relative.
   font-weight: normal;
   font-style: normal;
 }
-
 ```
+```css
 .shocker {
-  /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'asu_shocker' !important;
   speak: none;
   font-style: normal;
@@ -44,18 +44,19 @@ On drupal installs, font directories are relative.
   font-variant: normal;
   text-transform: none;
   line-height: 1;
-  /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 ```
+```css
 .shocker-asu_shocker:before {
   content: "\e900";
   color: white;
   font-size: 100px;
   vertical-align: middle;
-}```
+}
+
+```
 
 End with an example of getting some data out of the system or using it for a little demo
 
