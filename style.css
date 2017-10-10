@@ -1,17 +1,17 @@
 @font-face {
-  font-family: 'asu_shocker';
-  src:  url('fonts/asu_shocker.eot?d1y9ne');
-  src:  url('fonts/asu_shocker.eot?d1y9ne#iefix') format('embedded-opentype'),
-    url('fonts/asu_shocker.ttf?d1y9ne') format('truetype'),
-    url('fonts/asu_shocker.woff?d1y9ne') format('woff'),
-    url('fonts/asu_shocker.svg?d1y9ne#asu_shocker') format('svg');
+  font-family: 'asu_pitchfork';
+  src:  url('fonts/asu_pitchfork.eot?d1y9ne');
+  src:  url('fonts/asu_pitchfork.eot?d1y9ne#iefix') format('embedded-opentype'),
+    url('fonts/asu_pitchfork.ttf?d1y9ne') format('truetype'),
+    url('fonts/asu_pitchfork.woff?d1y9ne') format('woff'),
+    url('fonts/asu_pitchfork.svg?d1y9ne#asu_pitchfork') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 .shocker {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'asu_shocker' !important;
+  font-family: 'asu_pitchfork' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -24,7 +24,7 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.shocker-asu_shocker:before {
+.shocker-asu_pitchfork:before {
   content: "\e900";
   color: #605f5f;
 }

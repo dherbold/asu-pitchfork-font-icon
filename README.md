@@ -28,16 +28,16 @@ Add the fonts to your directory of choice, and c/p the following into the approp
 
 ```css
 @font-face {
-  font-family: 'asu_shocker';
-  src: url('../fonts/asu_shocker/asu_shocker.eot');
-  src: url('../fonts/asu_shocker/asu_shocker.eot#iefix') format('embedded-opentype'), url('../fonts/asu_shocker/asu_shocker.ttf') format('truetype'), url('../fonts/asu_shocker/asu_shocker.woff') format('woff'), url('../fonts/asu_shocker/asu_shocker.svg#asu_shocker') format('svg');
+  font-family: 'asu_pitchfork';
+  src: url('../fonts/asu_pitchfork/asu_pitchfork.eot');
+  src: url('../fonts/asu_pitchfork/asu_pitchfork.eot#iefix') format('embedded-opentype'), url('../fonts/asu_pitchfork/asu_pitchfork.ttf') format('truetype'), url('../fonts/asu_pitchfork/asu_pitchfork.woff') format('woff'), url('../fonts/asu_pitchfork/asu_pitchfork.svg#asu_pitchfork') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 ```
 ```css
 .shocker {
-  font-family: 'asu_shocker' !important;
+  font-family: 'asu_pitchfork' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -49,7 +49,7 @@ Add the fonts to your directory of choice, and c/p the following into the approp
 }
 ```
 ```css
-.shocker-asu_shocker:before {
+.shocker-asu_pitchfork:before {
   content: "\e900";
   color: white;
   font-size: 100px;
@@ -57,12 +57,12 @@ Add the fonts to your directory of choice, and c/p the following into the approp
 }
 ```
 ```html
-<i class="shocker shocker-asu_shocker"></i>
+<i class="shocker shocker-asu_pitchfork"></i>
 ```
 
 ## This html will make something like what's in the image below. Style dependent, of course. 
 ```html
-<span class="boss">EDUCATE LIKE A BOSS <i class="shocker shocker-asu_shocker"></i></span>
+<span class="boss">EDUCATE LIKE A BOSS <i class="shocker shocker-asu_pitchfork"></i></span>
 ```
 
 ![icon use in header](https://github.com/dherbold/asu-pitchfork-font-icon/blob/master/screenshot.gif "Shocker, man.")

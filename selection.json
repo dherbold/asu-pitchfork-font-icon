@@ -199,7 +199,7 @@
         "isMulticolor2": false,
         "grid": 0,
         "tags": [
-          "asu_shocker"
+          "asu_pitchfork"
         ]
       },
       "attrs": [
@@ -348,7 +348,7 @@
       "properties": {
         "order": 4,
         "id": 0,
-        "name": "asu_shocker",
+        "name": "asu_pitchfork",
         "prevSize": 32,
         "code": 59648
       },
@@ -359,7 +359,7 @@
   ],
   "height": 1024,
   "metadata": {
-    "name": "asu_shocker",
+    "name": "asu_pitchfork",
     "designer": "",
     "designerURL": ""
   },
@@ -371,7 +371,7 @@
     "fontPref": {
       "prefix": "shocker-",
       "metadata": {
-        "fontFamily": "asu_shocker",
+        "fontFamily": "asu_pitchfork",
         "majorVersion": 1,
         "minorVersion": 0,
         "designer": "",
