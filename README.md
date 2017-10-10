@@ -64,7 +64,7 @@ No real Prerequisites here, but do access [IcoMoon.io](https://icomoon.io/) for 
 ```
 **results in: 
 
-![icon use in header](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![icon use in header](https://github.com/dherbold/asu-pitchfork-font-icon/blob/master/screenshot.gif "Shocker, man.")
 
 ## Built With
 
