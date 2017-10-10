@@ -24,8 +24,6 @@ No real Prerequisites here, but do access [IcoMoon.io](https://icomoon.io/) for 
 
 ### Installing
 
-On Drupal(7) installs, font directories are relative. Ref the following rel to your css directory. 
-
 ```css
 @font-face {
   font-family: 'asu_shocker';
@@ -55,10 +53,14 @@ On Drupal(7) installs, font directories are relative. Ref the following rel to y
   font-size: 100px;
   vertical-align: middle;
 }
-
+```
+```html
+<i class="shocker shocker-asu_shocker"></i>
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+[Sample Use]: https://github.com/dherbold/asu-pitchfork-font-icon/blob/master/screenshot.gif "Used in header"
+
+
 
 ## Running the tests
 
