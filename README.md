@@ -22,7 +22,9 @@ Ive added the original shocker vector file as an additional resource.
 No real Prerequisites here, but do access [IcoMoon.io](https://icomoon.io/) for more utilities related to it. 
 
 
-### Installing
+### Installation
+
+Add the fonts to your directory of choice, and c/p the following into the appropriate locations in your project. Adjust url's as needed. Further style via your own classes. 
 
 ```css
 @font-face {
@@ -58,11 +60,10 @@ No real Prerequisites here, but do access [IcoMoon.io](https://icomoon.io/) for 
 <i class="shocker shocker-asu_shocker"></i>
 ```
 
-## Example
+## This html will make something like what's in the image below. Style dependent, of course. 
 ```html
 <span class="boss">EDUCATE LIKE A BOSS <i class="shocker shocker-asu_shocker"></i></span>
 ```
-**results in: 
 
 ![icon use in header](https://github.com/dherbold/asu-pitchfork-font-icon/blob/master/screenshot.gif "Shocker, man.")
 
@@ -80,9 +81,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+***David Herbold** - [dherbold](https://github.com/dherbold)
 
 ## License
 
