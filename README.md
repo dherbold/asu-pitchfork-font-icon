@@ -58,39 +58,17 @@ No real Prerequisites here, but do access [IcoMoon.io](https://icomoon.io/) for 
 <i class="shocker shocker-asu_shocker"></i>
 ```
 
-[Sample Use]: https://github.com/dherbold/asu-pitchfork-font-icon/blob/master/screenshot.gif "Used in header"
-
-
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
+## Example
+```html
+<span class="boss">EDUCATE LIKE A BOSS <i class="shocker shocker-asu_shocker"></i></span>
 ```
-Give an example
-```
+**results in: 
 
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
+![icon use in header](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [icomoon](https://icomoon.io/) - The font maker
 
 ## Contributing
 
@@ -112,6 +90,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
+* Hat tip to Sheila Santa Maria for creating the original vector
