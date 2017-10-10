@@ -1,6 +1,6 @@
 # ASU Pitchfork Font Icon
 
-ASU's pitchfork (shocker) hand sign logo thingy as a font. Originally intended for use with banner and inline marketing material for ASU's Mary Lou Fulton Teachers College. 
+Ready made ASU pitchfork hand logo as a font. Originally intended for use with banner and inline marketing material for ASU's Mary Lou Fulton Teachers College. 
 
 ## Getting Started
 
